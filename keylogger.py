@@ -1,5 +1,6 @@
 import os
 import time
+import mailmanager
 import filemanager
 import winmanager
 from threading import Thread
@@ -26,6 +27,7 @@ def FSC():
         time.sleep(1)
         if filemanager.getfilesize() > MAX_FILE_SIZE:
             print("file size overflow")
+            mailmanager.main()
         
 # 메인 함수
 def main():         
