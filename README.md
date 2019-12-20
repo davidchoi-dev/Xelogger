@@ -14,6 +14,9 @@ pynput
 # Usage
 keylogger.py 파일을 실행하여 사용합니다.  
 exe(실행파일)로 빌드하기 위해선 Pyinstaller 모듈을 사용합니다.  
-pyinstaller --onefile --noconsole keylogger.py
+pyinstaller --onefile --noconsole keylogger.py  
+
+반드시 해당 프로젝트 파일을 다운로드 하신 뒤 mailmanager.py의 메일계정을 수정하여주시기 바랍니다.  
+https://myaccount.google.com/lesssecureapps 해당 주소에 접속하셔서 반드시 보안 수준이 낮은 앱을 "사용" 으로 변경해주시기바랍니다.  
 
 [키로거 개발 설명에 대한 유튜브 영상](http://www.youtube.com/watch?v=BkMtK-cyyEE)
