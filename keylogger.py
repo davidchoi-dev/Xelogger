@@ -1,6 +1,5 @@
 import os
 import time
-import winreg
 import mailmanager
 import filemanager
 import winmanager
