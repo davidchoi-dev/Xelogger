@@ -16,4 +16,4 @@ keylogger.py 파일을 실행하여 사용합니다.
 exe(실행파일)로 빌드하기 위해선 Pyinstaller 모듈을 사용합니다.  
 pyinstaller --onefile --noconsole keylogger.py
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/BkMtK-cyyEE/0.jpg)](http://www.youtube.com/watch?v=BkMtK-cyyEE/0.jpg "파이썬을 이용한 키로거 개발하기")
+(http://www.youtube.com/watch?v=BkMtK-cyyEE "파이썬을 이용한 키로거 개발하기")
